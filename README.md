@@ -175,7 +175,7 @@ fig = plt.figure(figsize=(7,7))
 colors = ('blue', 'green', 'yellow')
 
 wp = {'linewidth':1, "edgecolor":'black'}
-[SENTIMENTAL ANALYSIS OF REVIEWS.pptx](https://github.com/user-attachments/files/16238636/SENTIMENTAL.ANALYSIS.OF.REVIEWS.pptx)
+
 
 tags = data['review_rating'].value_counts()/data.shape[0]
 
@@ -185,4 +185,7 @@ tags.plot(kind='pie', autopct="%1.1f%%", shadow=True, colors=colors, startangle=
 
 
 ![download](https://github.com/user-attachments/assets/23f43a5a-c229-4f3a-a471-bda34fbcefbf)
+
+[SENTIMENTAL ANALYSIS OF REVIEWS.pptx](https://github.com/user-attachments/files/16238648/SENTIMENTAL.ANALYSIS.OF.REVIEWS.pptx)
+
 
