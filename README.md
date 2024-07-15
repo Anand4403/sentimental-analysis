@@ -175,6 +175,7 @@ fig = plt.figure(figsize=(7,7))
 colors = ('blue', 'green', 'yellow')
 
 wp = {'linewidth':1, "edgecolor":'black'}
+[SENTIMENTAL ANALYSIS OF REVIEWS.pptx](https://github.com/user-attachments/files/16238636/SENTIMENTAL.ANALYSIS.OF.REVIEWS.pptx)
 
 tags = data['review_rating'].value_counts()/data.shape[0]
 
